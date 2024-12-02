@@ -10,7 +10,7 @@ public class MyThread extends Thread{
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
-                throw new RuntimeException(e);
+                e.printStackTrace();
             }
         }
         System.out.println("Thread #1 is finished : ");
