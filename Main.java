@@ -11,5 +11,7 @@ public class Main {
         MyRunnable runnable1 = new MyRunnable();
         Thread thread2 = new Thread(runnable1);     // send this runnable1 as an argument within the constructor
 
+        thread1.start();
+        thread2.start();
     }
 }
