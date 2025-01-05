@@ -1,6 +1,7 @@
-Producer-Consumer Problem - Synchronization in Java
+# Producer-Consumer Problem - Synchronization in Java
 
-Implement the classic Producer-Consumer problem in Java using synchronized methods or blocks to ensure proper synchronization. Clearly demonstrate the shared buffer, the producer, and consumer threads. Include proper handling of buffer size and use wait and notify mechanisms
+Implement the classic Producer-Consumer problem in Java using synchronized methods or blocks to ensure proper synchronization. Clearly demonstrate the shared buffer, the producer, and the consumer threads. Include proper handling of buffer size and use wait and notify mechanisms
+*************************************************************************************************
 
 In the given scenario
 • The SharedBuffer class represents the shared buffer with methods produce and consume.
